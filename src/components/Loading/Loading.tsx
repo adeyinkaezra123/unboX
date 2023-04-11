@@ -1,7 +1,6 @@
 import { observer } from "mobx-react";
-import React from "react";
 import { ImSpinner2 } from "react-icons/im";
-import "./Loading.css";
+import "./Loading.scss";
 
 export const Loading = observer(function Loading({
   isLoading,
@@ -16,5 +15,3 @@ export const Loading = observer(function Loading({
     </div>
   );
 });
-
-export default Loading;

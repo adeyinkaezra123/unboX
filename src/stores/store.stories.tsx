@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
-import { ParcelData } from "../models";
+import { ParcelData } from "@/models";
 import { Story } from "@storybook/react/types-6-0";
 import { RootStore } from "./root.store";
 import { StoreProvider } from "./store.context";
 import { runInAction } from "mobx";
 
-import "../index.css";
+import "@/index.scss";
 
 const dummyData: ParcelData[] = [];
 

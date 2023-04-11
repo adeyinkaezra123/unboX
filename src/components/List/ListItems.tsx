@@ -1,6 +1,5 @@
 import { observer } from "mobx-react";
-import React from "react";
-import { Stop } from "../../models";
+import { Stop } from "@/models";
 import { ListItem } from "./ListItem";
 
 export const ListItems = observer(function ListItems({

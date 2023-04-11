@@ -1,8 +1,7 @@
 import { observer } from "mobx-react";
 import React from "react";
-import { useStore } from "@/stores/store.context";
-import { About } from "../About";
-import { List } from "./List";
+import { useStore } from "@/stores";
+import { About, List } from "@/components";
 
 const Examples = () => {
   return (

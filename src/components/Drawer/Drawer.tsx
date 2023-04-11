@@ -1,10 +1,8 @@
 import { action } from "mobx";
 import { observer } from "mobx-react";
-import React from "react";
 import { FaCaretUp } from "react-icons/fa";
-import { useStore } from "../../stores/store.context";
-import { Footer } from "../Footer";
-import { ListContent } from "../List";
+import { useStore } from "@/stores";
+import { Footer, ListContent } from "@/components";
 import "./Drawer.scss";
 
 export const Drawer = observer(function Drawer() {
@@ -39,3 +37,4 @@ export const Drawer = observer(function Drawer() {
     </section>
   );
 });
+

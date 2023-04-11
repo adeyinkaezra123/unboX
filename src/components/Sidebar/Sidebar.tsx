@@ -1,7 +1,6 @@
 import { observer } from "mobx-react";
-import React from "react";
-import { Footer } from "../Footer";
-import { ListContent } from "../List";
+import { Footer, ListContent } from "@/components";
+import React from 'react'
 import "./Sidebar.scss";
 
 export const Sidebar = observer(function Sidebar() {

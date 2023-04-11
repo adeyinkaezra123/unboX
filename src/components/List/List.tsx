@@ -1,6 +1,6 @@
 import { observer } from "mobx-react";
 import React from "react";
-import { useStore } from "../../stores/store.context";
+import { useStore } from "@/stores";
 import { ListGroup } from "./ListGroup";
 
 export const List = observer(function List() {

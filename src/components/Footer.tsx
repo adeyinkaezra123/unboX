@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Footer = () => {
   return (
     <footer className="Sidebar-footer p-2 has-background-light has-text-centered">

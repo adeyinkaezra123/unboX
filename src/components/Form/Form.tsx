@@ -1,8 +1,8 @@
 import { observer } from "mobx-react";
 import React, { useEffect, useState } from "react";
 import {useLocation, useNavigate } from "react-router-dom";
-import { useQueryParams } from "../../hooks";
-import { useStore } from "../../stores/store.context";
+import { useQueryParams } from "@/hooks";
+import { useStore } from "@/stores";
 import "./Form.scss";
 
 export const Form = observer(function Form() {
@@ -103,3 +103,4 @@ export const Form = observer(function Form() {
     </form>
   );
 });
+

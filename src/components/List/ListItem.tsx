@@ -4,8 +4,8 @@ import React, { useEffect, useMemo, useState } from "react";
 import { FaFlag } from "react-icons/fa";
 import { RiMapPin2Fill } from "react-icons/ri";
 import { Color, percentShift } from "@/utilities";
-import { Stop, TrackingEvent } from "../../models";
-import { useStore } from "@/stores/store.context";
+import { Stop, TrackingEvent } from "@/models";
+import { useStore } from "@/stores";
 import "./ListItem.scss";
 
 const useSelectedProp = (selected: boolean): string => {

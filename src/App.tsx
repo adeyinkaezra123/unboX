@@ -8,12 +8,9 @@ import {
   BrowserRouter,
 } from "react-router-dom";
 import "./App.scss";
-import { Loading } from "./components/Loading";
-import { Map } from "./components/Map";
-import { Sidebar } from "./components/Sidebar";
+import { Loading, Map, Sidebar } from "@/components";
 import { useQueryParams } from "./hooks";
-import { RootStore } from "./stores/root.store";
-import { StoreProvider } from "./stores/store.context";
+import { RootStore, StoreProvider } from "@/stores";
 
 const store = new RootStore();
 
@@ -42,8 +39,6 @@ const App = observer(function App() {
 
   return (
     <StoreProvider store={store}>
-      {" "}
-      {/* <BrowserRouter> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route element={<Navigate to="/" />} />

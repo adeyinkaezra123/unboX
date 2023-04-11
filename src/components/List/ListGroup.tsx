@@ -2,8 +2,8 @@ import { runInAction } from "mobx";
 import { observer } from "mobx-react";
 import React from "react";
 import { FaCaretDown } from "react-icons/fa";
-import { ParcelData } from "../../models";
-import { useStore } from "../../stores/store.context";
+import { ParcelData } from "@/models";
+import { useStore } from "@/stores";
 import { ListItems } from "./ListItems";
 
 export interface ListGroupProps {

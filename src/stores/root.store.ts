@@ -6,7 +6,7 @@ import { Feature, featureCollection, Point, Polygon } from "@turf/helpers";
 import { ArcLayer, Position2D } from "deck.gl";
 import { action, autorun, makeAutoObservable, runInAction } from "mobx";
 import { Color } from "@/utilities";
-import { ParcelData, RawParcelData, Stop } from "../models";
+import { ParcelData, RawParcelData, Stop } from "@/models";
 import { parseParcelData } from "@/utilities";
 import { UIStore } from "./ui.store";
 

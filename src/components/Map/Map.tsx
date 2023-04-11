@@ -4,10 +4,8 @@ import { observer } from "mobx-react";
 import React, { useEffect, useState } from "react";
 import StaticMap from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-import { Arc } from "../../stores/root.store";
-import { useStore } from "../../stores/store.context";
-import { Drawer } from "../Drawer";
-import { Form } from "../Form";
+import { Arc, useStore } from "@/stores";
+import { Drawer, Form } from "@/components";
 import "./Map.scss";
 
 const INITIAL_VIEW_STATE = {
