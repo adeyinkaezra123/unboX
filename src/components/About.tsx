@@ -6,7 +6,9 @@ export const About = observer(function About() {
 
   return (
     <section className={`content ${store.uiStore.isMobile ? "pb-2" : "p-2"}`}>
-      <h3>About Parcel Tracker</h3>
+      <h3>
+        About <b>unboX</b>
+      </h3>
       <p>
         This tool is built for people who like to keep track of their online
         purchases or shipments across major couriers all in one app.
@@ -18,7 +20,7 @@ export const About = observer(function About() {
       <p>
         For the technical details and to peak into the code, checkout the For
         technical details and insight into the development approach, checkout
-        the <a href="https://githuib.com/adeyinkaezra123">Github Repo.</a>
+        the <a href="https://githuib.com/adeyinkaezra123/unboX">Github Repo.</a>
       </p>
       <p>
         If you find any bugs or have a way to improve this, feel free to raise

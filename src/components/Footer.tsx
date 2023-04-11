@@ -3,7 +3,7 @@ export const Footer = () => {
     <footer className="Sidebar-footer p-2 has-background-light has-text-centered">
       <a
         className="is-size-7 text-muted"
-        href="https://www.github.com/everettblakley/parcel-tracker-react"
+        href="https://www.github.com/adeyinkaezra123/unboX"
         target="_blank"
         rel="noreferrer"
         title="source code"
@@ -12,9 +12,9 @@ export const Footer = () => {
       </a>
       <p className="is-size-7 is-italic">
         &copy; Copyright {new Date().getFullYear()} -{" "}
-        <a href="https://everettblakley.ca" target="_blank" rel="noreferrer">
-          Everett Blakley
-        </a>
+      </p>
+      <p className="is-size-7 is-italic">
+        Made by Ezra Adeyinka with lots of ❤️ and ☕
       </p>
     </footer>
   );

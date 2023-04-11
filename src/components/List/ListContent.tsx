@@ -5,14 +5,17 @@ import { About, List } from "@/components";
 
 const Examples = () => {
   return (
-    <ul>
-      <li>
-        <b>{"YYC -> YYZ -> YYC:"}</b> 4337360760364248
-      </li>
-      <li>
-        <b>Two stops:</b> 4010765063638021
-      </li>
-    </ul>
+    <>
+    <p>Examples</p>
+      <ul>
+        <li>
+          <b>{"YYC -> YYZ -> YYC:"}</b> 4337360760364248
+        </li>
+        <li>
+          <b>Two stops:</b> 4010765063638021
+        </li>
+      </ul>
+    </>
   );
 };
 
