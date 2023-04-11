@@ -1,0 +1,41 @@
+.ListItem {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 0.5em;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  &:hover,
+  &.selected {
+    background: whitesmoke;
+  }
+
+  .ListItem_content {
+    flex: 1;
+  }
+
+  .ListItem_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 1em;
+  }
+
+  .ListItem_icon--fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 200ms ease-in-out;
+    box-shadow: 0 0;
+
+    &.selected {
+      box-shadow: 0px 4px 4px #ddd;
+    }
+  }
+}
