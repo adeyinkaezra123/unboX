@@ -12,7 +12,7 @@ export default defineConfig({
   },
   define: {
     __BUILD_TIME__: JSON.stringify(new Date().toLocaleDateString()),
-    'process.env': process.env,
+    "process.env": process.env,
   },
 });
 
