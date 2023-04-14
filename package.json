@@ -35,6 +35,22 @@
     "react-router-dom": "^6.10.0",
     "worker-loader": "^3.0.8"
   },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "not safari < 10",
+      "not chrome < 51",
+      "not android < 5",
+      "not ie < 12"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "devDependencies": {
     "@types/node": "^18.15.11",
     "@types/react": "^18.0.33",
