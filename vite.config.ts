@@ -14,8 +14,11 @@ export default defineConfig({
     __BUILD_TIME__: JSON.stringify(new Date().toLocaleDateString()),
     "process.env": process.env,
   },
+  build: {
+    commonjsOptions: { include: [] },
+  },
   optimizeDeps: {
-    include: ["react", "react-router-dom", "mapbox-gl", "react-map-gl"],
+    disabled: false,
   },
 });
 

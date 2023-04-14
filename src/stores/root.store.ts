@@ -56,6 +56,7 @@ export class RootStore {
     fetch(url)
       .then((response: Response) => {
         if (response.ok) {
+          console.log(response.clone().json());
           return response.json();
         } else if (response.status === 404) {
           throw new Error("Couldn't find a parcel with that tracking number");
