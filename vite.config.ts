@@ -14,6 +14,9 @@ export default defineConfig({
     __BUILD_TIME__: JSON.stringify(new Date().toLocaleDateString()),
     "process.env": process.env,
   },
+  optimizeDeps: {
+    include: ["react", "react-router-dom", "mapbox-gl", "react-map-gl"],
+  },
 });
 
 // also don't forget to `npm i -D @types/node`, so __dirname won't complain
