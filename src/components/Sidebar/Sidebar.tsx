@@ -14,7 +14,6 @@ export const Sidebar = observer(function Sidebar() {
           <ListContent />
         </div>
       </section>
-      <Footer />
     </aside>
   );
 });
